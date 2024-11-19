@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-header">
+            <img src="image/profile pic.jpg" alt="Prajwal's Profile Picture" class="header-profile-pic">
+        </div>
+        <h1>Prajwal R</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile">
+            <p>Hi, I’m Prajwal. I’m a Computer Science and Design student passionate about blending tech and creativity. I love building things that are not only functional but also visually engaging. Whether it's coding or designing, I'm always exploring ways to make digital experiences better.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>E-commerce Website Design focused on creating a user-friendly online store with intuitive navigation, high-quality product displays, secure checkout, responsive design, and personalized recommendations.</p>
+            <a href="project1.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Steps Counter App Design aimed at motivating users to stay active by accurately tracking steps, setting goals, visualizing progress, and providing motivational features.</p>
+            <a href="project2.html">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <!-- Contact Form Section -->
+        <form action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Prajwal</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
